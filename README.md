@@ -17,10 +17,8 @@ Python, Django, Angular.
 Este es un proyecto backend (Django + Angular), por lo que no tiene demo en vivo vía GitHub Pages. Para probarlo localmente:
 
 1. Cloná el repositorio.
-2. Instalá las dependencias de Python (`pip install -r requirements.txt` si existe, o Django manualmente) y corré `python manage.py runserver`.
+2. Instalá las dependencias de Python (`pip install -r requirements.txt` si existe, o Django manualmente), corré `python manage.py migrate` para generar la base de datos local y luego `python manage.py runserver`.
 3. Instalá las dependencias de Angular dentro de `user-app` (`npm install`) y corré `ng serve`.
-
-**Nota:** el archivo `db.sqlite3` quedó incluido en el repositorio. Al ser un proyecto de práctica no es crítico, pero en un proyecto real se recomienda excluir la base de datos del control de versiones (agregarla a `.gitignore`).
 
 ---
 Desarrollado por **Romina Herrera** · [LinkedIn](https://www.linkedin.com/in/romina-herreramicv/)
